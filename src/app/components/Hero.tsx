@@ -74,6 +74,9 @@ export function Hero() {
         </motion.div>
 
         {/* SEO H1 + Giant Brand */}
+        <h1 className="sr-only">
+  US Jobs, Job Applications, Digital Resumes & Job Consultancy
+</h1>
         <h1 className="relative mb-6 leading-none select-none">
 
           {/* Fidora */}
@@ -154,9 +157,7 @@ export function Hero() {
           className="text-[#F0EDD8]/55 text-base md:text-lg max-w-2xl mx-auto leading-relaxed"
           style={U}
         >
-          FidoraPath helps IT professionals find US jobs through professional
-          job application services, ATS-friendly digital resumes, LinkedIn
-          optimization, and targeted career support for the US job market.
+          FidoraPath helps IT professionals find US jobs with professional job application services, ATS-friendly digital resumes, LinkedIn optimization, and career consultancy.
         </motion.p>
 
         {/* CTAs */}
