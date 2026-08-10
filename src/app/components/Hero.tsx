@@ -33,6 +33,50 @@ export function Hero() {
         </motion.div>
 
         {/* Giant stacked brand */}
+        {/* SEO H1 + Giant stacked brand */}
+<h1
+  className="relative mb-6 leading-none select-none"
+  aria-label="FidoraPath - US Jobs, Job Applications and Career Services"
+>
+  <motion.span
+    initial={{ opacity: 0, x: -50 }}
+    animate={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.85, delay: 0.28, ease: [0.22, 1, 0.36, 1] }}
+    className="block"
+    style={{
+      ...U,
+      fontSize: 'clamp(68px, 13vw, 148px)',
+      fontWeight: 200,
+      letterSpacing: '0.03em',
+      color: 'rgba(240,237,216,0.88)',
+      lineHeight: 1.05,
+    }}
+  >
+    Fidora
+  </motion.span>
+
+  <motion.span
+    initial={{ opacity: 0, x: 50 }}
+    animate={{ opacity: 1, x: 0 }}
+    transition={{ duration: 0.85, delay: 0.42, ease: [0.22, 1, 0.36, 1] }}
+    className="block"
+    style={{
+      ...U,
+      fontSize: 'clamp(68px, 13vw, 148px)',
+      fontWeight: 900,
+      letterSpacing: '-0.02em',
+      lineHeight: 1.05,
+      background: 'linear-gradient(130deg, #C8922A 0%, #E8B94A 45%, #C8922A 100%)',
+      WebkitBackgroundClip: 'text',
+      WebkitTextFillColor: 'transparent',
+      backgroundClip: 'text',
+      textShadow:
+        '0 0 40px rgba(255,184,0,1), 0 0 80px rgba(255,184,0,0.6), 0 0 160px rgba(255,184,0,0.3), 0 0 300px rgba(255,184,0,0.15)',
+    }}
+  >
+    path.
+  </motion.span>
+</h1>
         <div className="relative mb-6 leading-none select-none">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -79,14 +123,14 @@ export function Hero() {
         />
 
         {/* Subtitle */}
-        <motion.p
-          initial={{ opacity: 0, y: 14 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.65, delay: 0.72 }}
-          className="text-[#F0EDD8]/48 text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10 font-light"
-        >
-          We help IT professionals beat ATS systems and land dream jobs in the US market — Digital Resumes, LinkedIn optimization, and targeted career coaching.
-        </motion.p>
+       <motion.p
+  initial={{ opacity: 0, y: 14 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.65, delay: 0.72 }}
+  className="text-[#F0EDD8]/48 text-base md:text-lg max-w-xl mx-auto leading-relaxed"
+>
+ FidoraPath helps IT professionals find US jobs through professional job application services, ATS-friendly digital resumes, LinkedIn optimization, and career support for the US job market.
+</motion.p>
 
         {/* CTAs */}
         <motion.div
