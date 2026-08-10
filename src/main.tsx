@@ -1,16 +1,22 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './app/App.tsx';
-import './styles/index.css';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const rootElement = document.getElementById('root');
+import App from "./app/App";
+import ATSResumeWriting from "./app/pages/ATSResumeWriting";
 
-if (!rootElement) {
-  throw new Error('Root element not found');
-}
+import "./styles/index.css";
 
-createRoot(rootElement).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
+createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route
+          path="/ats-resume-writing"
+          element={<ATSResumeWriting />}
+        />
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
 );

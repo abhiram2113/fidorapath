@@ -1,3 +1,4 @@
+import ATSResumeWriting from "./pages/ATSResumeWriting";
 import React, { useMemo } from 'react';
 import { motion } from 'motion/react';
 
