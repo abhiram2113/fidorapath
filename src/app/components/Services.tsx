@@ -166,9 +166,9 @@ const services: Service[] = [
   },
 
   {
-    title: 'LinkedIn Optimization',
-    subtitle:
-      'Optimize your LinkedIn profile for US IT recruiter searches',
+    title: 'LinkedIn Profile Optimization',
+subtitle:
+  'Optimize your LinkedIn profile to attract US IT recruiters and employers',
     price: '$15',
     priceLabel: 'Starting at',
     icon: <Linkedin className="h-6 w-6" />,
@@ -182,13 +182,13 @@ const services: Service[] = [
       'Connection message templates',
     ],
     longDesc:
-      'We optimize your LinkedIn profile with relevant IT keywords, a stronger professional headline, an improved About section, and role-focused content designed to help your profile communicate your experience clearly to recruiters.',
+  'We optimize your LinkedIn profile using relevant IT industry keywords, a stronger professional headline, an improved About section, optimized experience descriptions, and role-focused content designed to help recruiters understand your professional background.',
   },
 
   {
-    title: 'US Job Applications',
-    subtitle:
-      'Targeted US job applications handled by our career support team',
+    title: 'US Job Application Services',
+subtitle:
+  'Professional and targeted job application support for US IT jobs',
     price: '$150',
     priceLabel: 'Starting at',
     icon: <Briefcase className="h-6 w-6" />,
@@ -202,7 +202,7 @@ const services: Service[] = [
       'Application tracking dashboard',
     ],
     longDesc:
-      'Our US job application service helps IT professionals manage targeted job applications. We identify relevant opportunities, organize applications, prepare role-specific materials, and maintain application tracking so you can focus on interviews and career preparation.',
+  'Our US job application service helps IT professionals identify relevant job opportunities and manage targeted applications. We organize applications, prepare role-specific materials, track submitted positions, and provide structured career support throughout the US job search process.',
   },
 
   {
@@ -274,15 +274,15 @@ export function Services() {
             <h2
               className="text-4xl md:text-5xl font-bold text-[#F0F4FF] leading-tight mb-5 max-w-3xl"
               style={U}
-            >
-              US Job Applications, Digital Resumes & Career Services
+            >US Job Applications, ATS Resume Writing & Career Services
+              
             </h2>
 
             <p className="text-[#F0F4FF]/42 max-w-2xl leading-relaxed font-light text-sm md:text-base">
-              FidoraPath provides professional job application support,
-              ATS-friendly digital resumes, LinkedIn optimization,
-              portfolio building, certification guidance, and career
-              support for IT professionals targeting US jobs.
+             FidoraPath provides professional US job application services,
+ATS-friendly resume writing, LinkedIn profile optimization,
+IT portfolio development, certification guidance, and career
+consulting for professionals targeting jobs in the United States.
             </p>
           </motion.div>
 
