@@ -157,7 +157,7 @@ export function Hero() {
           className="text-[#F0EDD8]/55 text-base md:text-lg max-w-2xl mx-auto leading-relaxed"
           style={U}
         >
-          FidoraPath helps IT professionals find US jobs with professional job application services, ATS-friendly digital resumes, LinkedIn optimization, and career consultancy.
+          FidoraPath helps IT professionals find US jobs with professional job application services, ATS-friendly digital resumes, LinkedIn optimization, and career counsellors.
         </motion.p>
 
         {/* CTAs */}
