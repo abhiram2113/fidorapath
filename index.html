@@ -6,7 +6,7 @@
   <!-- Google Search Console Verification -->
   <meta
     name="google-site-verification"
-    content="YOUR_EXISTING_GOOGLE_VERIFICATION_CODE"
+    content="8A5aGd7dH8Vp6IBJfyBxXMIw2LK8uZvKgX0xQ2y_dgE" />"
   />
 
   <!-- Mobile / Responsive -->
@@ -21,22 +21,22 @@
   <!-- SEO Description -->
   <meta
     name="description"
-    content="FidoraPath helps IT professionals find US jobs through professional job application services, ATS-friendly digital resumes, LinkedIn optimization, and job consultancy support."
+    content="FidoraPath helps IT professionals find US jobs through professional job application services, ATS-friendly digital resumes, LinkedIn optimization, and career support."
   />
 
-  <!-- Tell Google to index the website -->
+  <!-- Search Engine Indexing -->
   <meta
     name="robots"
     content="index, follow"
   />
 
-  <!-- Canonical URL -->
+  <!-- IMPORTANT: Your real domain -->
   <link
     rel="canonical"
-    href="https://fidorapath.vercel.app/"
+    href="https://fidorapath.in/"
   />
 
-  <!-- Open Graph / Social Sharing -->
+  <!-- Open Graph -->
   <meta
     property="og:title"
     content="FidoraPath | US Jobs & Job Application Services"
@@ -44,7 +44,7 @@
 
   <meta
     property="og:description"
-    content="Professional US job applications, ATS-friendly digital resumes, LinkedIn optimization, and job consultancy support for IT professionals."
+    content="Professional US job applications, ATS-friendly digital resumes, LinkedIn optimization, and career support for IT professionals."
   />
 
   <meta
@@ -54,7 +54,7 @@
 
   <meta
     property="og:url"
-    content="https://fidorapath.vercel.app/"
+    content="https://fidorapath.in/"
   />
 
   <meta
@@ -62,61 +62,66 @@
     content="FidoraPath"
   />
 
-  <!-- Basic SEO Keywords -->
+  <!-- SEO Keywords -->
   <meta
     name="keywords"
     content="US jobs, job applications, digital resume, job consultancy, US job consultancy, IT jobs USA, job application services, ATS resume, ATS-friendly resume, LinkedIn optimization"
   />
-<!-- FidoraPath Structured Data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://fidorapath.vercel.app/#organization",
-      "name": "FidoraPath",
-      "url": "https://fidorapath.vercel.app/",
-      "description": "FidoraPath provides US job application services, ATS-friendly resume writing, LinkedIn optimization, portfolio development, certification guidance, and career support for IT professionals.",
-      "email": "support@fidorapath.com"
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://fidorapath.vercel.app/#website",
-      "url": "https://fidorapath.vercel.app/",
-      "name": "FidoraPath",
-      "description": "US job applications, ATS resume writing, LinkedIn optimization, and career services for IT professionals.",
-      "publisher": {
-        "@id": "https://fidorapath.vercel.app/#organization"
+
+  <!-- FidoraPath Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://fidorapath.in/#organization",
+        "name": "FidoraPath",
+        "url": "https://fidorapath.in/",
+        "description": "FidoraPath provides US job application services, ATS-friendly resume writing, LinkedIn optimization, portfolio development, certification guidance, and career support for IT professionals."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://fidorapath.in/#website",
+        "url": "https://fidorapath.in/",
+        "name": "FidoraPath",
+        "alternateName": [
+          "Fidora Path",
+          "fidorapath.in"
+        ],
+        "description": "US job applications, ATS resume writing, LinkedIn optimization, and career services for IT professionals.",
+        "publisher": {
+          "@id": "https://fidorapath.in/#organization"
+        }
+      },
+      {
+        "@type": "Service",
+        "name": "US Job Application Services",
+        "provider": {
+          "@id": "https://fidorapath.in/#organization"
+        },
+        "description": "Professional and targeted job application support for IT professionals seeking jobs in the United States."
+      },
+      {
+        "@type": "Service",
+        "name": "ATS Resume Writing",
+        "provider": {
+          "@id": "https://fidorapath.in/#organization"
+        },
+        "description": "ATS-friendly resume writing tailored for US IT job applications."
+      },
+      {
+        "@type": "Service",
+        "name": "LinkedIn Profile Optimization",
+        "provider": {
+          "@id": "https://fidorapath.in/#organization"
+        },
+        "description": "LinkedIn profile optimization designed to improve visibility with IT recruiters and employers."
       }
-    },
-    {
-      "@type": "Service",
-      "name": "US Job Application Services",
-      "provider": {
-        "@id": "https://fidorapath.vercel.app/#organization"
-      },
-      "description": "Professional and targeted job application support for IT professionals seeking jobs in the United States."
-    },
-    {
-      "@type": "Service",
-      "name": "ATS Resume Writing",
-      "provider": {
-        "@id": "https://fidorapath.vercel.app/#organization"
-      },
-      "description": "ATS-friendly resume writing tailored for US IT job applications."
-    },
-    {
-      "@type": "Service",
-      "name": "LinkedIn Profile Optimization",
-      "provider": {
-        "@id": "https://fidorapath.vercel.app/#organization"
-      },
-      "description": "LinkedIn profile optimization designed to improve visibility with IT recruiters and employers."
-    }
-  ]
-}
-</script>
+    ]
+  }
+  </script>
+
   <!-- Page Styling -->
   <style>
     html,
@@ -133,10 +138,5 @@
 
 <body>
   <div id="root"></div>
-
-  <script
-    type="module"
-    src="/src/main.tsx"
-  ></script>
 </body>
 </html>
