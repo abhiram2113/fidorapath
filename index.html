@@ -6,7 +6,7 @@
   <!-- Google Search Console Verification -->
   <meta
     name="google-site-verification"
-    content="8A5aGd7dH8Vp6IBJfyBxXMIw2LK8uZvKgX0xQ2y_dgE" />"
+    content="8A5aGd7dH8Vp6IBJfyBxXMIw2LK8uZvKgX0xQ2y_dgE"
   />
 
   <!-- Mobile / Responsive -->
@@ -30,7 +30,7 @@
     content="index, follow"
   />
 
-  <!-- IMPORTANT: Your real domain -->
+  <!-- Canonical URL -->
   <link
     rel="canonical"
     href="https://fidorapath.in/"
@@ -128,15 +128,19 @@
     body {
       height: 100%;
       margin: 0;
+      padding: 0;
     }
 
     #root {
-      height: 100%;
+      min-height: 100%;
     }
   </style>
 </head>
 
 <body>
   <div id="root"></div>
+
+  <!-- React Entry Point -->
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
